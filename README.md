@@ -1,4 +1,4 @@
-# Writeup for *EFIENS CTF 2019*
+# Writeup for *EFIENS CTF 2019 - Round 2*
 
 ## (Crypto) *!Stream Cipher*
 
