@@ -2,7 +2,7 @@
 
 ## (Crypto) *!Stream Cipher*
 
-*Đề bài*: [crypto1.py](./crypto1/crypto1.py)
+*Source*: [crypto1.py](./crypto1/crypto1.py)
 
 *Output*: ed139bafa3833c178afd29f21dc16f94a869c49b90d06373b99e5b8b6db530b5
 
@@ -23,7 +23,7 @@ print t.decrypt(cipher)
 
 ## (Crypto) *Cookie1*
 
-Đề bài:
+*Source*:
 
 - [cookiegen.py](./cookie1/cookiegen.py)
 - [service.py](./cookie1/service.py)
@@ -149,11 +149,11 @@ print Login(exploit_cookie)
 # Welcome admin! Here, take you flag EFIENCTF{bl0ck_c1pher_qwerty123@321}
 ```
 
-[solve.py](./cookie1/solve.py)
+Full solution: [solve.py](./cookie1/solve.py)
 
 ## (Crypto) *Cookie2*
 
-Đề bài:
+*Source*:
 
 - [cookiegen.py](./cookie2/cookiegen.py)
 - [service.py](./cookie2/service.py)
@@ -251,7 +251,7 @@ print "x =", x
 # x = 1231232342423212224122142
 ```
 
-Done.
+Tìm được `x`, và lấy được admin cookie như bài `Cookie1`.
 
 Exploit code:
 
@@ -286,4 +286,4 @@ print Login(exploit_final)
 # Welcome admin! Here, take you flag EFIENCTF{1t_s_k1nd4_h4rd_r1ght?}
 ```
 
-[solve.py](./cookie2/solve.py)
+Full solution: [solve.py](./cookie2/solve.py)
