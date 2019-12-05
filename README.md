@@ -6,7 +6,7 @@
 
 *Output*: ed139bafa3833c178afd29f21dc16f94a869c49b90d06373b99e5b8b6db530b5
 
-Output có 2 block, block đầu và `E(IV)`, block sau là `plaintext XOR E(IV)` theo `AES OFB mode`, vậy nên chỉ cần `XOR` 2 block lại là ra flag.
+Output có 2 block, block đầu là `E(IV)`, block sau là `plaintext XOR E(IV)` theo `AES OFB mode`, vậy nên chỉ cần `XOR` 2 block lại là ra flag.
 
 ```python
 from Crypto.Cipher import XOR
